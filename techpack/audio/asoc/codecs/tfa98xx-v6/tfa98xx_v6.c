@@ -2435,11 +2435,7 @@ static int tfa98xx_load_container(struct tfa98xx *tfa98xx)
 
 	#ifdef VENDOR_EDIT
 	//xiang.fei@PSW.MM.AudioDriver.HAL, 2019/03/26, Add for multi-project baseline
-	if(is_project(OPPO_18383)) {
-		sprintf(fw_name,"tfa98xx_18383.cnt");
-	} else {
-		sprintf(fw_name,"tfa98xx.cnt");
-	}
+	sprintf(fw_name,"tfa98xx.cnt");
 	pr_info("loaded cnt: %s\n", fw_name);
 	#endif /* VENDOR_EDIT */
 
