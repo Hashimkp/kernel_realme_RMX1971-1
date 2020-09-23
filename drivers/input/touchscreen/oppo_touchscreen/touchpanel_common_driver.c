@@ -84,7 +84,7 @@ static int pm_qos_state = 0;
 #define PM_QOS_TOUCH_WAKEUP_VALUE 400
 #endif
 
-uint8_t DouTap_enable = 0;               // double tap
+uint8_t DouTap_enable = 1;               // double tap
 uint8_t UpVee_enable  = 0;               // V
 uint8_t DownVee_enable  = 0;             // ^
 uint8_t LeftVee_enable = 0;              // >
